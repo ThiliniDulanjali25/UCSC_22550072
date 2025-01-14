@@ -80,11 +80,11 @@ public class BaseTest {
         int maxWait = Integer.parseInt(prop.getProperty("maxWait"));
 
         if(browserName.equals("chrome")){
-            //driver = new ChromeDriver();
+            driver = new ChromeDriver();
 
-            ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
-            driver = new ChromeDriver(chromeOptions);
+//            ChromeOptions chromeOptions = new ChromeOptions();
+//            chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
+//            driver = new ChromeDriver(chromeOptions);
 
         } else if (browserName.equals("firefox")) {
             driver = new FirefoxDriver();

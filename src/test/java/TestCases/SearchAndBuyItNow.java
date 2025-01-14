@@ -25,8 +25,8 @@ public class SearchAndBuyItNow extends BaseTest {
         ExcelHandler excel = new ExcelHandler(excelFilePath, sheetName);
 
         // Read data
-        String searchItem = excel.getCellData(3, 1);
-        String expectedValue = excel.getCellData(3, 2);
+        String searchItem = excel.getCellData(1, 1);
+        String expectedValue = excel.getCellData(1, 2);
 
         //Report Name
         setReportName("Test Case 3 - Purchase an Item");
@@ -48,7 +48,7 @@ public class SearchAndBuyItNow extends BaseTest {
 
         // Write data back to the Excel file
         String itemDetails = searchResultsPage.getItemDetails();
-        excel.setCellData(3, 3, "Selected Item: " + itemDetails, excelFilePath);
+        excel.setCellData(1, 3, "Selected Item: " + itemDetails, excelFilePath);
 
 
         // Step 2: Select the item
