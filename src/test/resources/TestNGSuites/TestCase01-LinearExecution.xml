@@ -3,8 +3,8 @@
 <suite name="Test Suite" parallel="false">
     <test name="Test 01">
         <classes>
-            <class name="TestCases.SearchItem" />
-            <class name="TestCases.BuyItem" />
+            <class name="TestCases.SearchAndBuyItNow" />
+
         </classes>
     </test>
 </suite>

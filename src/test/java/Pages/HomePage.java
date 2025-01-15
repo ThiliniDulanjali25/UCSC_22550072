@@ -12,7 +12,7 @@ public class HomePage {
     @FindBy(id = "gh-ac") // Search input field
     WebElement searchBox;
 
-    @FindBy(id = "gh-btn") // Search button
+    @FindBy(id = "gh-search-btn") // Search button
     WebElement searchButton;
 
     @FindBy(id = "//*[@id=\"gh-minicart-hover\"]") // Search button
