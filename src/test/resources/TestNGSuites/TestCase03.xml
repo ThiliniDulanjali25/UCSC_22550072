@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Test Suite" parallel="false">
-    <test name="Test 01">
+    <test name="Test 03">
         <classes>
-            <class name="TestCases.CheckLogin" />
             <class name="TestCases.SearchAndBuyItNow" />
         </classes>
     </test>
